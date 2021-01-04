@@ -1,0 +1,28 @@
+{
+  "name": "billing",
+  "version": "1.0.0",
+  "description": "Billing software for restaurants",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vcodeearth/billing.git"
+  },
+  "keywords": [
+    "Billing",
+    "software"
+  ],
+  "author": "Vishnu Venugopal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vcodeearth/billing/issues"
+  },
+  "homepage": "https://github.com/vcodeearth/billing#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "helmet": "^4.2.0"
+  }
+}
